@@ -5,3 +5,6 @@ let showSettings = () => {
 };
 
 settingIcone.addEventListener("click", showSettings);
+AOS.init({
+  duration: 1000
+}) ;

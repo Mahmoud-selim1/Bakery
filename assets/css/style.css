@@ -401,6 +401,10 @@ footer .foot1 .text4 a {
 footer .foot1 .text1 p {
     line-height: 2;
 }
+footer .foot1 .text4 a {
+    position: relative;
+    z-index: 200;
+}
 footer .foot1 .text2 p:not(:last-child),
 footer .foot1 .text3 p:not(:last-child) {
     border-bottom: 1px solid rgba(255,255,255,0.05);
